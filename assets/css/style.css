@@ -24,7 +24,7 @@ img {
 }
 /*---------HEADER----------*/
 
-header {
+.Home {
   background-image: url(../images/header_background.jpg);
   background-size: 400px;
   background-repeat: no-repeat;
@@ -151,4 +151,17 @@ header {
 
 .open .hamburger::after {
   transform: translateY(-3px) rotate(-90deg);
+}
+
+/*.......To style about me image........*/
+
+.wrapper {
+background-image: url(../images/about_me.webp);
+background-size: 400px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  overflow: hidden;
+  background-position: top left;
+  height: 660px;
 }
